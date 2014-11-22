@@ -18,5 +18,5 @@ depends: /usr/sbin/debootstrap /usr/bin/strings /usr/bin/docker
 /usr/sbin/debootstrap:
 	sudo apt-get install debootstrap
 
-run8:
+run:
 	docker run --rm=true -t -i ubuntu:14.04 /bin/bash
